@@ -1,0 +1,1 @@
+The API returns a 401 Unauthorized status when someone attempts to access a protected feature without valid authentication. Once the user logs in with a valid token, they can successfully view their profile, and the server responds with 200 OK. After logout, the token is deactivated, preventing further access unless the user logs in again.
